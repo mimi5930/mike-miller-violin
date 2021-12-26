@@ -1,6 +1,7 @@
 :root {
     --main-bg-color: #fff;
     --secondary-bg-color: #ababab;
+    --header-text-color: whitesmoke;
     --title-font: 'Sawarabi Mincho', sans-serif;
 }
 
@@ -12,25 +13,43 @@ body {
 
 h1 {
     font-family: var(--title-font);
+    color: var(--header-text-color);
+    font-size: 40px;
 }
 /* General Styling End */
 
 /* Header Start */
-header {
-    background-image: url(https://drive.google.com/file/d/1QNvz7Rs05ocevUNQDkwbG6gGhC8uDxum/view?usp=sharing);
+.title {
+    text-align: center;
+    margin: 15px;
 }
 
-.title {
-    margin-left: 10px;
-    text-align: center;
+.title h1 {
+    margin-bottom: 0px;
+}
+
+#logo-img {
+    border-radius: 90%;
+    height: 60px;
+    box-shadow: 0 0 5px;
 }
 
 header h2 {
     font-size: 20px;
+    color: var(--header-text-color);
 }
 
 ul {
     margin: 10px;
+}
+
+ul li a {
+    font-size: 15px;
+}
+
+ul li a:hover {
+    font-weight: bolder;
+    text-decoration: underline
 }
 
 
