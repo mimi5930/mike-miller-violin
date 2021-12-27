@@ -38,7 +38,7 @@
                 <a class="nav-link text-dark" href="#">Listen</a>
             </li>
             <li class="nav-item" id="contact-button-container">
-                <button class="btn btn-outline-dark">Contact</button>
+                <button class="btn btn-outline-dark" href="#contact-me">Contact</button>
             </li>
         </ul>
     </header>
@@ -52,6 +52,59 @@
         </div>
     </section>
     <!-- hero end -->
+
+    <!-- contact form start -->
+    <section class="container" id="contact-me">
+        <h2>Contact Me</h2>
+        <form action="https://formsubmit.co/00eacd3a5731fbc35a61815541b0ebb6" method="post">
+            <!-- formsubmit.co functions start -->
+            <input type="hidden" name="_subject" value="mikemillerviolin.com form submission">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
+            <!-- formsubmit.co functions end -->
+            <div class="form-floating mb-3">
+                <input class="form-control" type="text" name="name" id="name-input" placeholder="First, Last" required>
+                <label for="name-input">Name *</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" type="email" name="email" id="email-input" placeholder="name@example.com" required>
+                <label for="email-input">Email *</label>
+            </div>
+            <div class="form-floating mb-3">
+                <input class="form-control" type="tel" name="phone" id="phone-input" placeholder="(###) ###-####">
+                <label for="phone-input">Phone</label>
+            </div>
+            <div class="check-section mb-3">
+                <h3>What Services are you looking for</h3>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="looking for a performer" id="performer-checkbox">
+                    <label class="form-check-label" for="performer-checkbox">
+                        Performer for an event
+                    </label>
+                </div>
+                <div class="form-check">    
+                    <input class="form-check-input" type="checkbox" name="looking for lessons" id="lessons-checkbox">
+                    <label class="form-check-label" for="lessons-checkbox">
+                        Lessons
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" name="looking for other" id="other-checkbox">
+                    <label class="form-check-label" for="other-checkbox">
+                        Other
+                    </label>
+                </div>
+            </div>
+            <div class="form-floating mb-3">
+                <textarea class="form-control" name="text-submit" id="text-submit" placeholder="..." required></textarea>
+                <label for="text-submit">Message or question *</label>
+            </div>
+            <button class="btn btn-outline-dark" type="submit">SUBMIT</button>
+        </form>
+    </section>
+    <!-- contact form end -->
 
     <script src="./assets/js/script.js"></script>
 </body>
