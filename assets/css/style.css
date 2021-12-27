@@ -2,6 +2,7 @@
     --main-bg-color: #fff;
     --secondary-bg-color: #ababab;
     --header-text-color: whitesmoke;
+    --button-color: #212529;
     --title-font: 'Sawarabi Mincho', sans-serif;
 }
 
@@ -62,6 +63,8 @@ ul li a:hover {
     background-color: var(--secondary-bg-color);
 }
 
+/* Header End */
+
 /* Hero Start */
 .hero {
     position: relative;
@@ -86,13 +89,15 @@ ul li a:hover {
     color: var(--header-text-color);
 }
 
+/* Hero End */
+
 /* Contact Me Start */
 
 #contact-me {
     margin: auto;
-    width: 50%;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    width: 60%;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 #contact-me h2 {
@@ -100,6 +105,33 @@ ul li a:hover {
     margin-bottom: 30px;
 }
 
+.form-control {
+    background-color: var(--header-text-color);
+}
+
 #text-submit {
     height: 100px;
+}
+
+/* Contact Me End */
+
+/* Footer Start */
+
+footer {
+    padding: 40px;
+    background-color: var(--button-color);
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+footer svg {
+    transition: .3s;
+}
+
+footer svg:hover {
+    opacity: .5;
 }
