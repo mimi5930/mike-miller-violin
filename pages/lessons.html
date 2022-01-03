@@ -45,17 +45,13 @@
     </header>
     <!-- header end -->
 
+    <!-- covid info modal start-->
     <div class="modal-container" id="covid-modal">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5>COVID-19 Announcement</h5>
-                    <button type="button" class="btn btn-outline-dark">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"/>
-                        <path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"/>
-                      </svg>
-                    </button>
+                    <button type="button" class="btn-close"></button>
                 </div>
                 <p class="modal-body">
                     For the safety of students and their families, all lessons are to be done electronically on Zoom until further notice. Contact Mr. Miller with any questions!
@@ -65,23 +61,38 @@
                 </div>
             </div>
         </div>
-    </div>      
+    </div>
+    <!-- covid info modal end -->
 
-    <main>
-        <div class="hero-lessons">
-            <p class="about-lessons">Collaborating with students of all ages to achieve their 
-                goals in music is what Mr. Miller loves to do best!</p>
+    <!-- hero start -->
+    <section class="hero-lessons">
+        <p class="about-lessons">Collaborating with students of all ages to achieve their 
+            goals in music is what Mr. Miller loves to do best!</p>
+    </section>
+    <!-- hero end -->
+
+    <!-- main start -->
+    <main class="d-flex flex-column flex-md-row justify-content-md-evenly">
+        <div class="card card-handbook">
+            <img class="card-img-top" src="https://drive.google.com/uc?id=1u1dhbznnLPlxdTi4_K0dC_vOlGp9AdJT" alt="A group of people gather to sign a document">
+            <div class="card-body">
+                <h3 class="card-title">Lesson Handbook</h3>
+                <p class="card-text">This Handbook includes information on Billing Policies, Supplies, 
+                    Lesson Cancellation, Make-Up Lessons, Practice Tips and much more!</p>
+                <button type="button" class="btn btn-dark" id="modal-popup-btn">
+                    Lesson Handbook PDF
+                </button>
+            </div>
         </div>
-        <h3>Lesson Handbook</h3>
-        <p>This Handbook includes information on Billing Policies, Supplies, 
-            Lesson Cancellation, Make-Up Lessons, Practice Tips and much more!</p>
-        <button type="button" class="btn btn-dark" id="modal-popup-btn">
-            Lesson Handbook PDF
-        </button>
-        <!-- !Payments (venmo) -->
-        <h3>Online Payments</h3>
-        <p>Mr. Miller accepts online payment through <a href="#">Venmo</a></p>
+        <div class="card card-payments">
+            <img class="card-img-top" src="https://drive.google.com/uc?id=12tR2Tq-mt5BUGyuL9dm6E0E8505GxEGQ" alt="A lady pays with her phone at the computer">
+            <div class="card-body">
+                <h3 class="card-title">Online Payments</h3>
+                <p class="card-text">Mr. Miller accepts online payment through <a href="https://venmo.com/u/Mike-Miller-243" target="_blank">Venmo</a></p>
+            </div>
+        </div>
     </main>
+    <!-- main end -->
 
     <!-- footer start -->
     <footer class="d-flex flex-column flex-md-row justify-content-between align-items-center">

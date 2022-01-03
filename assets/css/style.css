@@ -219,6 +219,16 @@ footer p {
     background-color: rgba(0, 0, 0, .8);
 }
 
+.lessons-page .card {
+    width: 25rem;
+    text-align: center;
+    margin: 30px;
+}
+
+.card-handbook img {
+    background-color: #ebdec9;
+}
+
 /* Media Queries Start */
 
 @media screen and (max-width: 768px) {
