@@ -157,21 +157,14 @@ footer p {
 }
 
 .bio-page main img {
+    max-height: 781px;
+    max-width: 517px;
 }
 
 .bio-page h2 {
     text-align: center;
     border-bottom: solid var(--bs-body-color) 2px;
 }
-
-.bio-page main h3 {
-    text-align: center;
-    border-bottom: solid var(--bs-body-color) 2px;
-}
-
-.bio-page main button {
-    padding: 15px;
-} 
 
 
 /* Media Queries Start */
