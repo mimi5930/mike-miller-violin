@@ -145,7 +145,7 @@ footer p {
 
 
 
-/* Bio Styling start */
+/* *Bio Styling start */
 
 .bio-page #logo-img {
     margin: 15px;
@@ -165,6 +165,14 @@ footer p {
     text-align: center;
     border-bottom: solid var(--bs-body-color) 2px;
 }
+
+.bio-page main button {
+    text-transform: uppercase;
+}
+
+/* *Lessons Page Styling Start */
+
+
 
 
 /* Media Queries Start */
