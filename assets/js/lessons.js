@@ -4,10 +4,6 @@ $("#modal-popup-btn").on("click", function() {
 });
 
 $(".modal-footer").on("click", "button", function() {
-    console.log("okay button");
-});
-
-$(".modal-header").on("click", "button", function() {
     $("#covid-modal").css("display", "none");
 });
 
