@@ -145,9 +145,6 @@ footer p {
 
 /* Media Queries Start */
 
-/* TODO: Optimize screen to differ from iPad and iPhone widths (Bootstrap's looks fine on phone but not tablet) */
-
-
 @media screen and (max-width: 768px) {
 
     ul li a {
