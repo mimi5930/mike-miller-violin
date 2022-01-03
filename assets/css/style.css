@@ -76,7 +76,7 @@ ul li a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 300px;
+    min-height: 400px;
 }
 
 .about-me {
@@ -138,9 +138,21 @@ footer svg:hover {
     opacity: .5;
 }
 
+footer h2,
+footer p {
+    text-align: center;
+}
+
 /* Media Queries Start */
 
-@media screen and (max-width: 769px) {
+/* TODO: Optimize screen to differ from iPad and iPhone widths (Bootstrap's looks fine on phone but not tablet) */
+
+@media screen and (max-width: 768px) {
+    /* position picture from top */
+    .hero {
+        background-position: bottom;
+    }
+
     /* center about me */
     .about-me {
         font-size: 15px;
