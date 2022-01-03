@@ -172,8 +172,24 @@ footer p {
 
 /* *Lessons Page Styling Start */
 
+.lessons-page header img{
+    color: black;
+    margin: 15px;
+}
 
-
+.hero-lessons {
+    margin: auto;
+    position: relative;
+    height: 50vw;
+    width: 100%;
+    background-image: url("https://drive.google.com/uc?id=1jsBLTMUVKOrqHNgGUrGCod1VPx_Vo_U8");
+    background-color: #060405;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 640px;
+    max-width: 1000px;
+}
 
 /* Media Queries Start */
 
