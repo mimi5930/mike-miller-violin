@@ -172,6 +172,8 @@ footer p {
     text-transform: uppercase;
 }
 
+
+
 /* *Lessons Page Styling Start */
 
 .lessons-page header img{
@@ -180,7 +182,7 @@ footer p {
 }
 
 .hero-lessons {
-    margin: auto;
+    margin: 30px auto;
     position: relative;
     height: 50vw;
     width: 100%;
@@ -189,8 +191,32 @@ footer p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    min-height: 640px;
     max-width: 1000px;
+    max-height: 500px;
+}
+
+.about-lessons {
+    height: 300px;
+    font-size: 20px;
+    background-color: rgba(130, 145, 147);
+    border-radius: 5px;
+    position: absolute;
+    left: 55%;
+    padding: 65px;
+    bottom: 15%;
+    width: 35%;
+    color: var(--header-text-color);
+}
+
+.lessons-page .modal-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .8);
 }
 
 /* Media Queries Start */
