@@ -69,12 +69,12 @@ ul li a:hover {
 .hero {
     position: relative;
     height: 50vw;
+    width: 100%;
     background-image: url("https://lh3.googleusercontent.com/wSQNblezGR500wslMu-MRUXt3xaKf-IfiH0F3awe0DgAxz53LBCihoL0fjSARfepfrn18vInka5Ov2xwnWrZqhfUtWZWgjk_fldy9IVRkZS2JK10Xx1QcjUSo6SC-ixOkhxlUfnwRWOjTmX2MYug3e51UA5FeP5L0yRZtIDHMarDHxRQwL1r7LFXxWSLtTuM3Sh3W5p9ypc4kFmda_epGJhWEDs8uJTklJduwmGCD6Q4vi2Ax4hzrQvlA_PaFxK_LSyE-H9pPSbO_1zx4J_SjpI49YCWPA1gn2kWETrHxHA9K42C9yTGAp8GREd8j45FBLxX8_jklV8J89sl1DBglqJGQ51gNVi1aoEpuPB9OMRqSitpCwrXLTqmgxpy2sRDDMhGavUPOdiS1SHvjpV3Ms97VKNQboBQlL5qzr49uMrE4EYzoNvF8-v5mcVVlkWB3RELtv0hrnYCMz7KjiNojqfvqlDFfgyT3lIO1ApIV-VyK_05y99Ko5tfSOChRZTNCvTaLxDDcjHahtDkNqW_urR7zviFhppbvF8E4h-7udtz3xH54zZCXBfIUI4bpFj-0sScdm8JOmegO0k4vtx5iwyAFdLguk0JcUSuVs4zoDBAp6m47I7Z9eRqzsx_xhWp36DRqY6ElsH5BV52fQUG_yufoBs9q62GL9fB9ant3gm4mwsIGNuGwygH3DqEN1HSuwnO_L_V1l4HB-HnO9pJx18=w3011-h1994-no?authuser=2");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 300px;
-    min-width: 600px;
 }
 
 .about-me {
@@ -135,3 +135,7 @@ footer svg {
 footer svg:hover {
     opacity: .5;
 }
+
+/* Media Queries Start */
+
+/* TODO set about me to center on smaller screens*/
