@@ -252,4 +252,32 @@ footer p {
         bottom: auto;
         top: 25%;
     }
+
+    /* *Lessons Page Start */
+
+    .lessons-page .card {
+        width: 15rem;
+        text-align: center;
+        margin: 30px auto;
+
+    }
+
+    .hero-lessons {
+        height: 400px;
+        width: 100%;
+    }
+    
+    .about-lessons {
+        height: 300px;
+        font-size: 20px;
+        border-radius: 5px;
+        position: relative;
+        margin: auto;
+        left: 20%;
+        padding: 20px;
+        bottom: auto;
+        width: 60%;
+        top: 15%;
+    }
+
 }
