@@ -147,7 +147,13 @@ footer p {
 
 /* TODO: Optimize screen to differ from iPad and iPhone widths (Bootstrap's looks fine on phone but not tablet) */
 
+
 @media screen and (max-width: 768px) {
+
+    ul li a {
+        font-size: 16px;
+    }
+
     /* position picture from top */
     .hero {
         background-position: bottom;
@@ -157,7 +163,7 @@ footer p {
     .about-me {
         font-size: 15px;
         position: relative;
-        margin: auto;
+        margin: 30px;
         color: var(--header-text-color);
         width: auto;
         bottom: auto;
