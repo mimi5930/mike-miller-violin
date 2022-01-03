@@ -73,6 +73,7 @@ ul li a:hover {
     height: 50vw;
     width: 100%;
     background-image: url("https://drive.google.com/uc?id=1tKtQug8OcevTmQqJf8HLKGkqFt-ato32");
+    background-color: var(--secondary-bg-color);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -157,6 +158,7 @@ footer p {
 }
 
 .bio-page main img {
+    background-color: #090909;
     max-height: 781px;
     max-width: 517px;
 }
