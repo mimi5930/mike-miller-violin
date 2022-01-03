@@ -146,7 +146,32 @@ footer p {
 
 
 /* Bio Styling start */
-/* !use .bio-page */
+
+.bio-page #logo-img {
+    margin: 15px;
+}
+
+.bio-page a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-page main img {
+}
+
+.bio-page h2 {
+    text-align: center;
+    border-bottom: solid var(--bs-body-color) 2px;
+}
+
+.bio-page main h3 {
+    text-align: center;
+    border-bottom: solid var(--bs-body-color) 2px;
+}
+
+.bio-page main button {
+    padding: 15px;
+} 
 
 
 /* Media Queries Start */
