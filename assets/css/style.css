@@ -143,6 +143,12 @@ footer p {
     text-align: center;
 }
 
+
+
+/* Bio Styling start */
+/* !use .bio-page */
+
+
 /* Media Queries Start */
 
 @media screen and (max-width: 768px) {
