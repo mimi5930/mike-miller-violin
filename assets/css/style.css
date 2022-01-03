@@ -39,10 +39,12 @@ h1 {
 header h2 {
     font-size: 20px;
     color: var(--header-text-color);
+
 }
 
 ul {
     margin: 10px;
+    line-height: 2.5;
 }
 
 ul li a {
@@ -138,4 +140,15 @@ footer svg:hover {
 
 /* Media Queries Start */
 
-/* TODO set about me to center on smaller screens*/
+@media screen and (max-width: 769px) {
+    /* center about me */
+    .about-me {
+        font-size: 15px;
+        position: relative;
+        margin: auto;
+        color: var(--header-text-color);
+        width: auto;
+        bottom: auto;
+        top: 25%;
+    }
+}
