@@ -7,3 +7,6 @@ $(".modal-footer").on("click", "button", function() {
     $("#covid-modal").css("display", "none");
 });
 
+$(".modal-header").on("click", "button", function() {
+    $("#covid-modal").css("display", "none");
+});
