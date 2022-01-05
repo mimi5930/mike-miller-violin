@@ -248,6 +248,17 @@ footer p {
     font-weight: bold;
 }
 
+/* *See Page Start */
+
+.see-page #logo-img {
+    margin: 15px;
+}
+
+.see-page header a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Media Queries Start */
 
 @media screen and (max-width: 768px) {
