@@ -240,6 +240,10 @@ footer p {
     color: black;
 }
 
+.events-page .concert {
+    text-align: center;
+}
+
 /* Media Queries Start */
 
 @media screen and (max-width: 768px) {
