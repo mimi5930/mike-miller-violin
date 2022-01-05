@@ -229,6 +229,17 @@ footer p {
     background-color: #ebdec9;
 }
 
+/* *Events Page Start */
+
+.events-page #logo-img {
+    margin: 15px;
+}
+
+.events-page a {
+    text-decoration: none;
+    color: black;
+}
+
 /* Media Queries Start */
 
 @media screen and (max-width: 768px) {
