@@ -125,26 +125,22 @@ ul li a:hover {
     margin: 15px;
 }
 
-/* .see-page .images {
-    height: 800px;
-    width: 500px;
-} */
 
-.see-page .carousel {
-    margin: auto;
-    background-color: darkslategray;
-    height: 70vh;
-    width: 80%;
+.see-page .gallery-container {
+    border: black solid 5px;
+    background-color: whitesmoke;
+    height: 700px;
+    width: 700px;
+
 }
 
-.see-page .carousel img {
-    display: block;
-    margin: auto;
-    max-width: 80%;
-    max-height: 70vh;
+/* TODO: Vertical align images somehow */
+
+.see-page .carousel-inner{
+    padding-top: 12px;
     width: auto;
-    height: auto;
-}
+    height: fit-content;
+} 
 
 /* See End */
 
