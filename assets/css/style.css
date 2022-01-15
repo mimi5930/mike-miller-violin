@@ -136,11 +136,15 @@ ul li a:hover {
 
 /* TODO: Vertical align images somehow */
 
-.see-page .carousel-inner{
+.see-page .carousel-container{
     padding-top: 12px;
     width: auto;
     height: fit-content;
 } 
+
+.see-page .carousel-item:hover {
+    opacity: 90%;
+}
 
 /* See End */
 
