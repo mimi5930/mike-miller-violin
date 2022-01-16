@@ -296,6 +296,55 @@ footer p {
     color: black;
 }
 
+/* See Page End */
+
+/* *Listen Page Start */
+
+.listen-page #logo-img {
+    margin: 15px;
+}
+
+.listen-page header a {
+    text-decoration: none;
+    color: black;
+}
+
+.listen-page main {
+    text-align: center;
+}
+
+.listen-page h2 {
+    margin: 40px auto;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.listen-page h3 {
+    font-size: 35px;
+}
+
+.listen-page p {
+    font-size: 18px;
+}
+
+.listen-page .trio-info {
+    margin: 40px auto;
+}
+
+.listen-page .trio-card {
+    margin: 30px auto;
+}
+
+.listen-page .youtube-link {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.listen-page .youtube-link a {
+    color: black;
+}
+/* Listen Page End */
+
 /* Media Queries Start */
 
 @media screen and (max-width: 768px) {
